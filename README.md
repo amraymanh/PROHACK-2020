@@ -16,9 +16,10 @@ Using the data, train a model to predict the well-being index with the highest p
 Having discovered a star of unusually high energy of 50000 zillion DSML, what is the optimal distribution given that:
 * No one galaxy will consume more than 100 zillion DSML
 * At least 10% of the total energy will be consumed by galaxies in need with existence expectancy index below 0.7
-* Every galaxy has a certain limited potential for improvement in the Index described by the following function: **-np.log(Index+0.01)+3**
+* Every galaxy has a certain limited potential for improvement in the Index described by the following function: 
+**Potential for increase in the Index = -np.log(Index+0.01)+3**
 * Likely index increase dependent on potential for improvement and extra energy availability is described by the following function:
-**extra energy * Potential for increase in the Index ^2 / 1000**
+**Likely increase in the Index  = extra energy * Potential for increase in the Index ^2 / 1000**
 
 
 ## Evaluation
